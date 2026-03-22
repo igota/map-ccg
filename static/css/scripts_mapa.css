@@ -1,0 +1,528 @@
+body{
+   background-color:  #ffffff ;
+}
+
+
+
+.tabela{
+    display: none;
+    display: 120%;
+    background-color: #f2f8f9   ;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.tabela tbody tr {
+    line-height: 2em; /* Espaçamento entre linhas */
+}
+
+.tabela th, .tabela td {
+   
+    padding-inline: 50px;
+    padding: 10px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; /* Evita que o conteúdo transborde */
+    font-size: 23px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    max-width: 150px;  
+    border: 0.5px solid rgba(204, 201, 201, 0.932);
+}
+
+.tabela thead th {
+    background-color: #053994;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+/* Define largura para cada coluna específica */
+.tabela th:nth-child(1), .tabela td:nth-child(1) { 
+    width: 5%; /* Largura para a primeira coluna */
+}
+
+/* Define largura para cada coluna específica */
+.tabela th:nth-child(2), .tabela td:nth-child(2) { 
+    width: 1%; /* Largura para a primeira coluna */
+}
+
+.tabela th:nth-child(3), .tabela td:nth-child(3) { 
+    width: 1%; /* Largura para a quarta coluna */
+}
+
+.tabela th:nth-child(4), .tabela td:nth-child(4) { 
+    width: 65%; /* Largura para a segunda coluna */
+}
+
+.tabela th:nth-child(5), .tabela td:nth-child(5) { 
+    width: 15%; /* Largura para a terceira coluna */
+}
+
+
+.tabela th:nth-child(6), .tabela td:nth-child(6) { 
+    width: 25%; /* Largura para a quinta coluna */
+}
+
+
+
+
+
+.titulo {
+    display: flex;
+    align-items: center; /* Alinha o texto verticalmente */
+    gap: 10px; /* Espaço entre os textos */
+    padding: 3px 15px;
+    background-color: #f7f9fc; /* Fundo leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    border: 2px solid #4a90e2; /* Borda colorida */
+    box-shadow: 2px 4px 10px rgba(0, 179, 255, 0.3); /* Sombra leve */
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 23px;
+}
+
+.titulo_master{
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+   
+    
+}
+
+.titulo_manha{
+    color: #4a90e2; /* Cor de destaque para o subtítulo */
+    font-size: 30px !important;
+    
+}
+.titulo_tarde{
+    color: #FF8C00; /* Cor de destaque para o subtítulo */
+    font-size: 30px !important;
+}
+.titulo_noite{
+    color: #800080; /* Cor de destaque para o subtítulo */
+    font-size: 30px !important;
+}
+
+.icone_manha {
+    margin-left: auto; /* Empurra o ícone para o lado direito */
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    
+}
+
+.icone_tarde{
+    margin-left: auto; /* Empurra o ícone para o lado direito */
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    
+}
+.icone_noite{
+    margin-left: auto; /* Empurra o ícone para o lado direito */
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    
+}
+
+
+
+.contagem {
+    position: absolute;
+    top: 90px; /* Distância do topo */
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+   
+    
+    padding: 11px 80px; /* Padding fixo */
+    width: 306px; /* Tamanho fixo da largura */
+    white-space: nowrap; /* Impede quebra de linha */
+    overflow: hidden; /* Garante que o conteúdo não exceda a largura */
+    text-align: center; /* Centraliza o texto */
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
+}
+
+
+
+
+
+
+.clock {
+    position: absolute;
+    right: 1px; /* Distância do lado direito */
+    top: 86px; /* Distância do topo */
+    font-size: 22px;
+    color: #333; /* Cor do texto */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    
+    
+    padding: 11px 62px;
+}
+
+
+.destaque-manha {
+    background-color: #f1f50a93 !important;
+}
+.destaque-tarde {
+    background-color: #eb932075 !important;
+}
+
+.destaque-noite {
+    background-color: #c728e75d !important; /* Destaque amarelo, por exemplo */
+}
+
+/* Estilo geral para a classe destaque-concluido */
+.destaque-concluido {
+    background-color: #D3D3D3; /* Cor de fundo cinza claro */
+    color: #A9A9A9; /* Cor do texto cinza mais claro */
+    font-weight: bold;
+}
+
+/* Estilo específico para a segunda célula (coluna) quando a linha tem a classe destaque-concluido */
+.destaque-concluido td:nth-child(1)::before {
+    content: '✔'; /* Símbolo de check */
+    color: green;
+    font-size: 30px; /* Ajuste conforme necessário */
+    margin-right: 2px; /* Ajuste o espaço entre o ícone e o conteúdo, se necessário */
+}
+
+
+
+/* Centraliza o conteúdo das células */
+.enfermeiro-cabecalho{
+    text-align: center; /* Centraliza horizontalmente o texto */
+    vertical-align: middle; /* Centraliza verticalmente o texto dentro da célula */
+    
+}
+
+.info-enfermeiro{
+    font-size: 20px !important;
+    background-color: rgba(113, 206, 243, 0.479) !important;
+    color: black !important;
+    
+}
+
+
+.legenda {
+    font-size: 15px;
+    position: absolute;
+    top: 10px; /* Distância da parte inferior da tela */
+       /* Distância da lateral esquerda da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px; /* Espaçamento interno */
+     /* Bordas arredondadas */
+    background-color: #ffffff;
+    
+    
+    padding: 3px 40px;
+}
+
+.legend-group{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.legenda-item {
+    display: inline-block;
+    padding: 1px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+}
+
+.logos{
+    font-size: 15px;
+    position: absolute;
+    top: 10px; /* Distância da parte inferior da tela */
+    right: 15px;   /* Distância da lateral esquerda da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    
+    padding: 10px; /* Espaçamento interno */
+     /* Bordas arredondadas */
+    background-color: #ffffff;
+    
+   
+    padding: 10px 1px;
+    
+}
+
+.logoisgh{
+    width: 100px;
+    padding-right: 6px;
+}
+
+.logohrn{
+    width: 90px;
+    
+}
+.logosesa{
+    width: 120px;
+}
+
+
+@media (max-width: 1090px) {
+    .legenda {
+        font-size: 8px;
+        padding: 3px 10px;
+    }
+     
+      
+    
+    .logos{
+        right: 5px;   /* Distância da lateral esquerda da tela */
+              
+    }
+    
+    .logoisgh{
+        width: 50px;
+    }
+    
+    .logohrn{
+        width: 50px;
+        
+    }
+    .logosesa{
+        width: 50px;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center; /* Alinha o texto verticalmente */
+        
+        padding: 2px 10px;
+        background-color: #f7f9fc; /* Fundo leve */
+        border-radius: 8px; /* Bordas arredondadas */
+        border: 2px solid #4a90e2; /* Borda colorida */
+        box-shadow: 2px 4px 10px rgba(0, 179, 255, 0.3); /* Sombra leve */
+        max-width: fit-content;
+        margin: auto;
+        margin-top: 12px;
+        margin-bottom: 23px;
+    }
+    
+    .titulo_master{
+        color: #333;
+        font-size: 20px;
+        font-weight: 700;
+       
+        
+    }
+    
+    .titulo_manha{
+        color: #4a90e2; /* Cor de destaque para o subtítulo */
+        font-size: 20px !important;
+        
+    }
+    .titulo_tarde{
+        color: #FF8C00; /* Cor de destaque para o subtítulo */
+        font-size: 20px !important;
+        padding-top: 5px ;
+    }
+    .titulo_noite{
+        color: #800080; /* Cor de destaque para o subtítulo */
+        font-size: 20px !important;
+    }
+    
+    .icone_manha svg{
+        height: 35px;
+        
+    }
+    
+    .icone_tarde svg{
+        height: 30px;
+        
+    }
+    .icone_noite svg{
+        height: 30px;
+        
+    }
+    
+    
+    
+    .contagem {
+        
+        top: 80px; /* Distância do topo */
+        font-size: 10px;
+        padding: 12px 30px; /* Padding fixo */
+        width: 150px; /* Tamanho fixo da largura */
+        
+    }
+       
+    .clock {
+        
+        right: 1px; /* Distância do lado direito */
+        top: 80px; /* Distância do topo */
+        font-size: 11px;
+        
+        padding: 11px 62px;
+    }
+
+       
+    
+    .tabela th, .tabela td {
+       
+        padding-inline: 50px;
+        padding: 10px 10px;
+        font-size: 12px;
+        
+    }
+    
+   
+    
+    
+
+    .info-enfermeiro{
+        font-size: 12px !important;
+               
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .legenda {
+        font-size: 5px;
+        
+    }
+
+    .legenda-item {
+        display: inline-block;
+        padding: 3px;
+        margin: 2px;
+        border-radius: 2px;
+        color: black;
+        font-weight: bold;
+    }
+     
+      
+    
+    .logos{
+        right: 1px;   /* Distância da lateral esquerda da tela */
+              
+    }
+    
+    .logoisgh{
+        width: 25px;
+    }
+    
+    .logohrn{
+        width: 25px;
+        
+    }
+    .logosesa{
+        width: 25px;
+    }
+
+    .titulo {
+       
+        
+        background-color: #f7f9fc; /* Fundo leve */
+        border-radius: 8px; /* Bordas arredondadas */
+        border: 2px solid #4a90e2; /* Borda colorida */
+        box-shadow: 2px 4px 15px rgba(0, 179, 255, 0.3); /* Sombra leve */
+        max-width: fit-content;
+        
+        
+    }
+    
+    .titulo_master{
+        color: #333;
+        font-size: 10px;
+        font-weight: 700;
+       
+        
+    }
+    
+    .titulo_manha{
+        color: #4a90e2; /* Cor de destaque para o subtítulo */
+        font-size: 10px !important;
+        
+    }
+    .titulo_tarde{
+        color: #FF8C00; /* Cor de destaque para o subtítulo */
+        font-size: 10px !important;
+        padding-top: 5px ;
+    }
+    .titulo_noite{
+        color: #800080; /* Cor de destaque para o subtítulo */
+        font-size: 10px !important;
+    }
+    
+    .icone_manha svg{
+        height: 15px;
+        
+    }
+    
+    .icone_tarde svg{
+        height: 15px;
+        
+    }
+    .icone_noite svg{
+        height: 15px;
+        
+    }
+    
+    
+    
+    .contagem {
+        
+        top: 64px; /* Distância do topo */
+        font-size: 7px;
+        padding: 15px 30px; /* Padding fixo */
+        width: 92px; /* Tamanho fixo da largura */
+        
+    }
+       
+    .clock {
+        
+        right: 1px; /* Distância do lado direito */
+        top: 72px; /* Distância do topo */
+        font-size: 7px;
+        
+        padding: 11px 25px;
+    }
+
+       
+    
+    .tabela th, .tabela td {
+       
+        padding-inline: 50px;
+        padding: 10px 10px;
+        font-size: 9px;
+        
+    }
+    
+   
+    
+    
+
+    .info-enfermeiro{
+        font-size: 9px !important;
+               
+    }
+    
+}
+
+

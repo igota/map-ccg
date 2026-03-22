@@ -1,0 +1,102 @@
+{
+    "admin": {
+        "senha": "scrypt:32768:8:1$Ri02qembOYaGEAGY$60ea0c049d7ae658ba681cf9f879d8fb4eb848f38160f2d6e84ccdd7c3240fa8e5d37063396386c46c0c8dd956cb4b56dc5227b09f3c61745ee7420aa128d8b5",
+        "permissao": "Administrador"
+    },
+    "1": {
+        "senha": "scrypt:32768:8:1$NVuEdUok5CzLf9rh$f20edb2fa5a865740d276a5e36eb79fdee067022c7c6e67cfdf784bd897a0a72f76a92bebdf11a49d77682bed0a56ed6adbd348998f89ff81c01393a90edcb09",
+        "permissao": "Colaborador"
+    },
+    "408263COREN": {
+        "senha": "scrypt:32768:8:1$Ot1xX9a88UnKxJKB$5624ca40840446a062a2d0e4b41a686d6c69e479fc2577f1ca6384f10c32ac320d2d574e08174bc4204c06f96aa94fb7ef87cebe999105299ba91187593c1d3b",
+        "permissao": "Colaborador"
+    },
+    "84903COREN": {
+        "senha": "scrypt:32768:8:1$GChSuXKgbtY3k8af$082ce3d2ba51add447c16b94604687eae2a5d31e4fb9c8e3b78a62272044514757f259b0e9595cfc3b35896be9edff5cdaf532fe1ca51a40a83e9f939b505928",
+        "permissao": "Administrador"
+    },
+    "84903coren": {
+        "senha": "scrypt:32768:8:1$TFqFezRndVQNQCNC$6bda1ff49d0d678c9cb5b971d9ff8ecec6221ec268574880c850316bc6778750b57495544a06b418b02c7528347ed446678196059fa37e7ab40adc784b94513e",
+        "permissao": "Administrador"
+    },
+    "384624coren": {
+        "senha": "scrypt:32768:8:1$argB3NI9Xtas9L45$061657380373b862c7281ab831f293a8a12932ae4934d37d4ff1204303838a1e44a32ab0614885e9db07741437ff6baa16090a6ee171b779b487aae683876f11",
+        "permissao": "Colaborador"
+    },
+    "178479coren": {
+        "senha": "scrypt:32768:8:1$FqzSNZig60enJB4w$1897f96c4ec1fe87c638435548a0df68af99edb175f2b8fe96e226290093ab31e7d12cd69508239395815d3617903c4f3b2c0a381548dd960a17c892355edad8",
+        "permissao": "Colaborador"
+    },
+    "513706coren": {
+        "senha": "scrypt:32768:8:1$Coiqt9c8HHnbjEvi$a69e5520039f70b1c9c8f1eba036c2e1ae537c3fb8060433ae2e69d7fedabe52a4ea6eca6f8cfd4d2dc5bab6a664fa02496a712026e65cba703f9596380497ca",
+        "permissao": "Colaborador"
+    },
+    "320642coren": {
+        "senha": "scrypt:32768:8:1$w9Zap4Ec3K75daU4$d53a11c291beb085def6170515b9482045f3a107a92382293148e4448b747b6844b731e401cf80ccdbeee55836f8ce39417187439595fc112bdb96d5ff1869a0",
+        "permissao": "Colaborador"
+    },
+    "186964coren": {
+        "senha": "scrypt:32768:8:1$HzHPw1XjhrbyKzLA$26404b2fb73268eb7505cb1158ba3b4b1a1398c672ac10d2cd425ddc78ff5acec01a1d024e8537c5804930a0e8e8d42cc8399f1eeddc01da15062818703cfdf0",
+        "permissao": "Administrador"
+    },
+    "249721coren": {
+        "senha": "scrypt:32768:8:1$mqaM7HeFD6j0yR9C$9c33dc723ec607e7fb7163393e256e4a6b99194c0648952e82ceeec6b63bc07c83d282b9d559f96f21e277f9a88416fda2ce04a9c531dd6e71bc12a7a4010f55",
+        "permissao": "Colaborador"
+    },
+    "309963coren": {
+        "senha": "scrypt:32768:8:1$pcXix3vrEQ6PcMm2$fb5d330a4794180d4b69b6ed079b379c7806850cc3c2dc723058b18d31c20de98cc48581e18809b4722496b6bfc85a77858a4bdf8f40cbedb05cd63281887248",
+        "permissao": "Colaborador"
+    },
+    "anaabesc": {
+        "senha": "scrypt:32768:8:1$xeDUVUwVjaPbHjNn$cd3116845780822330ffe8309b145051c8400ce5d131675d139d415ee2dbe70439fe4582860fe2e0cae5217583ff8a38a42d6cf9a516e4c05f051007211d0f6b",
+        "permissao": "Administrador"
+    },
+    "jailsonjas": {
+        "senha": "scrypt:32768:8:1$UOSPk7gOOsJa3VyU$306e24bf7482fc79b46a183731eaf4c12f01df967df19b5975a7fbaf9f3fb8fe696df62c7bf0b6c184a1a762918f815ade2fd93a53ba460630eedfd5ad2e0da4",
+        "permissao": "Administrador"
+    },
+    "henio": {
+        "senha": "scrypt:32768:8:1$6CUc1U8WzpIJBemp$880ffb71d2d5225bc9dbfcd35f98d3da4fffeeaf96e18959a7042d4022eae6aa40a7aae12ace07163a2547ea75a681a15e01b7009bc19b0bbe2646cdf11dccf6",
+        "permissao": "Administrador"
+    },
+    "462910COREN": {
+        "senha": "scrypt:32768:8:1$7eFLvOQdW5xWiE0e$2c52209ad03da614ca77be20d778d33c416b90cb3e643fbd554aad4069ec31211884dff4e80f9b34e2c5e1f29640ee4c38eab6ece79d9f1a2a5f46240646a9a4",
+        "permissao": "Colaborador"
+    },
+    "462910coren": {
+        "senha": "scrypt:32768:8:1$VhNZy9ecnbA9B4rA$f2cebdf47b1af13d27f2e69ac3339f9e95857a4451f65793ca39d4370bf4adce18f5cd26d0a48972ebd954be8fc27d5c414cccf3b286de9446c4a99b3bd0a95a",
+        "permissao": "Colaborador"
+    },
+    "926214COREN": {
+        "senha": "scrypt:32768:8:1$Z30lArjBuaOwfd53$472d7cb8bc78ba206228293cbd3042719b1ada474c5802b34b2b8c4fdecbfcd627d36b9b2b3ec0b19619718b61855f2dc5502c6f87e417b02eb2fdb525bd7219",
+        "permissao": "Colaborador"
+    },
+    "735411COREN": {
+        "senha": "scrypt:32768:8:1$n1ooZUIFU2zGU35R$7fa420376f373766f95a8e2bb402a0d58691d5981c6b4c69e6dea85f929c0fad765fdcb7f24974c7d5264342d7bb269bba361a5aa8388cb3aeee2651c6fe00c9",
+        "permissao": "Colaborador"
+    },
+    "735411coren": {
+        "senha": "scrypt:32768:8:1$rVdUG08f0jAdchqg$c7d5234c46bf0a546ded4d884808aa11df99ef03e0f87f5c5a219e39554bd28604ee5bd510050fc8d7ef2663ff4a7777675f7ccb18758d664cd00a8c5b7c9423",
+        "permissao": "Colaborador"
+    },
+    "948132COREN": {
+        "senha": "scrypt:32768:8:1$p2JBpqAR0DfQBDLV$e8c06a2d58ccd1a19ea50cf276180e46bbb197d180fe8e316891cd5ada47b30dcfb59cdda3d4de4f4725d7417080b05e253c877b2cb8282788476ee7bb012c55",
+        "permissao": "Colaborador"
+    },
+    "306549coren": {
+        "senha": "scrypt:32768:8:1$Tfd2mfNQpgYHKXu9$06060cbb1d369d1e277d636063369df5f3eab500edad35142199ef90c15a48e2b86879ef27b59b6d98cfeb40fb8dd06eb5d3b0dbe165d0ec21d84c07710ed262",
+        "permissao": "Colaborador"
+    },
+    "72646COREN": {
+        "senha": "scrypt:32768:8:1$klh6Ib5FWL6fuUE7$5d30777941a740c73db1b05d8870579b61d05f2dbbac887d3411a0fa60dba6b57d2b526ec050b611e32a88c974c2b54a19d343d18aa70f164d9b8e660f22472f",
+        "permissao": "Colaborador"
+    },
+    "269809COREN": {
+        "senha": "scrypt:32768:8:1$as0GDViRbfUySclC$570738ee9b0690c0cea152ed27847fd3217e77be9bf0db9e5880ab2c6568b5f98b541e16cfc8050a8204d57907dab7c99fba359bf5b56d0149f276ea21874836",
+        "permissao": "Colaborador"
+    },
+    "764304COREN": {
+        "senha": "scrypt:32768:8:1$lV97fTkeB8eF7zVR$3a3176fad1073ed208940d891284aba67c67c381a7825eda17d5d122852ed2b81067333f870aa65e725c6f25f372694d5bd524c6b89c24d19a77e6e38bdaa442",
+        "permissao": "Colaborador"
+    }
+}

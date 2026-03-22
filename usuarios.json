@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "senha": "scrypt:32768:8:1$Ri02qembOYaGEAGY$60ea0c049d7ae658ba681cf9f879d8fb4eb848f38160f2d6e84ccdd7c3240fa8e5d37063396386c46c0c8dd956cb4b56dc5227b09f3c61745ee7420aa128d8b5",
+        "permissao": "Administrador"
+    },
+    "1": {
+        "senha": "scrypt:32768:8:1$NVuEdUok5CzLf9rh$f20edb2fa5a865740d276a5e36eb79fdee067022c7c6e67cfdf784bd897a0a72f76a92bebdf11a49d77682bed0a56ed6adbd348998f89ff81c01393a90edcb09",
+        "permissao": "Colaborador"
+    }
+}

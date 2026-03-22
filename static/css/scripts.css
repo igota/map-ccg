@@ -1,0 +1,86 @@
+body {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.tabela thead th {
+    background-color: #053994;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.tabela {
+    display: none; /* Inicialmente oculta todas as tabelas */
+    border-collapse: collapse;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.botoes {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333; /* Cor do texto */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.custom-checkbox {
+    cursor: pointer;
+    width: 15px;
+    margin-right: 5px;
+}
+
+h4 {
+    position: absolute;
+    left: 20px; /* Distância do lado direito */
+    top: 20px; /* Distância do topo */
+    font-weight: bold;
+}
+
+.clock {
+    position: absolute;
+    right: 20px; /* Distância do lado direito */
+    top: 20px; /* Distância do topo */
+    font-size: 25px;
+    color: #333; /* Cor do texto */
+    font-weight: bold;
+}
